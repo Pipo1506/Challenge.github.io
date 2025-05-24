@@ -7,6 +7,40 @@
     <title>Cadastro</title>
 </head>
 <body>
+  <div class="container">
+    <img src="loogo.png" alt="Logo HC FMUSP" class="logo">
     
+    
+    <form class="formulario">
+      <input type="text" placeholder="Nome completo" required>
+      <input type="text" placeholder="CPF" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Senha" required>
+      <input type="password" placeholder="Confirme a senha" required>
+      
+      <div class="checkbox">
+        <input type="checkbox" id="termos" required>
+        <label for="termos">EU ACEITO OS TERMOS E COMPROMISSOS</label>
+      </div>
+      
+      <div class="captcha">
+        <input type="checkbox" id="nao-robo">
+        <label for="nao-robo">Eu não sou robô</label>
+        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA">
+      </div>
+      
+      <button type="submit" class="botao">FINALIZAR</button>
+    </form>
+
+    <p class="login-link">Já tem uma conta?</p>
+    <a href="index.html">Página Inicial</a> 
+
+    <footer>
+      <small>
+        Ao se inscrever, você concorda <a href="#">Nossos termos</a><br>
+        e nossa <a href="#">política de Privacidade</a>
+      </small>
+    </footer>
+  </div>
 </body>
 </html>
