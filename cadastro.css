@@ -74,7 +74,11 @@ body {
   font-size: 12px;
   margin-top: 10px;
 }
-
+.pag1 {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
 
 footer {
   margin-top: 20px;

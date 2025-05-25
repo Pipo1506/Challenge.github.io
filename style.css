@@ -41,6 +41,11 @@ body {
   color: #003366;
   font-weight: bold;
 }
+.time {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+}
 
 .navbar {
   display: flex;
@@ -215,23 +220,3 @@ body {
   align-items: center;
 }
 
-.faq h1 {
-  writing-mode: vertical-rl;
-  /* texto de cima para baixo */
-  text-orientation: sideways;
-  /* mantém as letras na vertical */
-  transform: rotate(180deg);
-  /* opcional: para inverter de baixo pra cima */
-  font-size: 80px;
-  margin-right: 70px;
-}
-.faq-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap :50px;
-  justify-content: center;
-  align-content: center;
-  width: 50%;
-  margin-left: 20%;
-}
