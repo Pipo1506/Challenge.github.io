@@ -70,6 +70,54 @@ body {
             text-decoration: underline;
         }
 
+        /* Estilo padrão para todos os tamanhos (mobile-first) */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Extra small devices (telefones): até 600px */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* Small devices (tablets em modo retrato): a partir de 600px */
+@media (min-width: 600px) {
+  .container {
+    padding: 15px;
+    font-size: 15px;
+  }
+}
+
+/* Medium devices (tablets em modo paisagem): a partir de 768px */
+@media (min-width: 768px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+  }
+}
+
+/* Large devices (laptops/desktops): a partir de 992px */
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px;
+    font-size: 17px;
+  }
+}
+
+/* Extra large devices (desktops grandes): a partir de 1300px */
+@media (min-width: 1300px) {
+  .container {
+    max-width: 1100px;
+    font-size: 18px;
+  }
+}
+
         
         
         
