@@ -12,6 +12,7 @@
   <header class="topbar">
     <img src="loogo.png" alt="Logo HC FMUSP" class="logo" />
     <div class="top-actions">
+      <a href="time.html" class="time"></a>
       <button class="appointment-btn">Solicitar um agendamento</button>
       <a href="cadastro.html" class="cadastro">Cadastre-se</a>
     </div>
@@ -132,6 +133,83 @@
 
     </section>
 
+    <section>
+      <div class="faq">
+        <div class="faq-title">
+          <h1>PERGUNTAS FREQUENTES</h1>
+        </div>
+
+        <div class="faq-content">
+          <div class="Atendimentos">
+          <h2>Quais especialidades medicas o hospital oferece?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Atendimentos">
+          <h2>Como faço para agendar uma consulta?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Atendimentos">
+          <h2>O hospital realiza exames laboratoriais e de imagem</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Internações">
+          <h2>Como funciona o processo de internação</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Pronto-Atendimento">
+          <h2>O hospital tem pronto atendimento 24h?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Pronto-Atendimento">
+          <h2>Quais casos são atendidos na emergência?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Exames">
+          <h2>Como agendar exames no hospital?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Localização">
+          <h2>Onde fica o Hospital das Clínicas?</h2>
+          <p>Resposta</p>
+
+        </div>
+        <div class="faq-content">
+          <div class="Outros">
+          <h2>Como faço para fazer uma doação para o Hospital</h2>
+          <p>resposta</p>
+
+        </div>
+
+      </div>
+    </section>
+
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "1f616faf-051d-434f-928b-d6d459dee477", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "c26280f6-94ca-4a04-87b7-b5674b6ca2ce", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
    
 
 
