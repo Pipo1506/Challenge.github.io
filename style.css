@@ -414,80 +414,57 @@ body {
 .col {
     flex: 1;
 }
-.footer {
-    background: #fafbfc;
-    border-top: 3px solid #2196f3;
-    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.07);
-    padding: 32px 0 16px 0;
-    font-family: sans-serif;
-    width: 100%;
-}
+ footer {
+            position: relative;
+            background-color: #ffffff;
+            padding: 40px 20px;
+            border-top: 1px solid #d3d3d3;
+        }
 
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 32px;
-    flex-wrap: wrap;
-}
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            color: #003366;
+        }
 
-.footer-col {
-    flex: 1 1 220px;
-    min-width: 200px;
-}
+        .footer-column {
+            flex: 1;
+            margin: 0 20px;
+        }
 
-.footer-logo-col {
-    max-width: 300px;
-}
+        .footer-column h3 {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #003366;
+        }
 
-.footer-logo {
-    width: 120px;
-    margin-bottom: 12px;
-}
+        .footer-column ul {
+            list-style: none;
+        }
 
-.footer-contact p {
-    font-size: 15px;
-    color: #035d99;
-    margin: 4px 0;
-    line-height: 1.4;
-}
+        .footer-column ul li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
 
-.footer-contact a {
-    color: #035d99;
-    text-decoration: underline;
-    word-break: break-all;
-}
+        .footer-column ul li a {
+            text-decoration: none;
+            color: #003366;
+        }
 
-.footer-col h4 {
-    font-size: 17px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #222;
-}
+        .footer-column ul li a:hover {
+            color: #0077c2;
+        }
 
-.footer-col ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.footer-col ul li {
-    margin-bottom: 7px;
-}
-
-.footer-col ul li a {
-    color: #444;
-    text-decoration: none;
-    font-size: 15px;
-    transition: color 0.2s;
-}
-
-.footer-col ul li a:hover {
-    color: #2196f3;
-    text-decoration: underline;
-}
+        .footer-logo {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            height: 170px;
+        }
 /* Estilo padrão para todos os tamanhos (mobile-first) */
 body {
   font-family: Arial, sans-serif;

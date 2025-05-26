@@ -1,76 +1,87 @@
 body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #ffffff;
-            color: rgb(0, 0, 0);
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        .logo {
-            width: 150px;
-            height: auto;
-            margin: 20px;
-        }
-        .home-link {
-            margin-left: 1000px;
-             text-decoration: none;
-            color: #003366;
-            font-weight: bold;
-           
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 
-        }
-        .container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-        h1 {
-            font-size: 48px;
-            margin: 50px 0;
-            text-align: center;
-            color: #0088CE;
-        }
-        .team {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-            max-width: 1200px;
-            margin-bottom: 50px;
-        }
-        .team-member {
-            width: 45%;
-        }
-        .team-member h2 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        .team-member h3 {
-            font-size: 18px;
-            color: #b0b0b0;
-            margin-bottom: 15px;
-        }
-        .team-member p {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        footer {
-            background-color: #0088CE;
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            font-size: 14px;
-            border-top: 1px solid #333;
-        }
-        footer a {
-            color: white;
-            text-decoration: underline;
-        }
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+}
 
-        /* Estilo padrão para todos os tamanhos (mobile-first) */
+.home-link {
+  margin-left: 1000px;
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+
+
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 50px 0;
+  text-align: center;
+  color: #0088CE;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+
+.team-member {
+  width: 45%;
+}
+
+.team-member h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  color: #b0b0b0;
+  margin-bottom: 15px;
+}
+
+.team-member p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #0088CE;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Estilo padrão para todos os tamanhos (mobile-first) */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -118,6 +129,69 @@ body {
   }
 }
 
-        
-        
-        
+footer {
+  position: relative;
+  background-color: #ffffff;
+  padding: 40px 20px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #003366;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #003366;
+}
+
+.footer-column ul li a:hover {
+  color: #0077c2;
+}
+
+.footer-logo {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  height: 170px;
+}
+
+.member{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+
+}
